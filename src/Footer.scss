@@ -1,0 +1,14 @@
+@import "_variables";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand&display=swap");
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.parrafo-footer {
+	@include flex-center();
+	background-color: $color-principal;
+	color: #fff8f3;
+	height: 50px;
+	font-family: $letra-titulo;
+}
